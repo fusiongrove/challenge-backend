@@ -1,16 +1,18 @@
 # Backend (Laravel)
 
-This challenge is designed to test your familiarity with GIT, Laravel, RESTful APIs, Object-oriented PHP and BASH. You will be required to create an API that can CREATE, READ, UPDATE and DELETE articles using the Laravel Framework. 
+This challenge is designed to test your familiarity with GIT, Laravel, RESTful APIs, Object-oriented PHP and BASH. 
+You will be required to create an API that can CREATE, READ, UPDATE and DELETE articles using the Laravel Framework. 
 
 While you do not need to include any authentication within the challenge due care should be taken to ensure database inputs are sanitized. 
 
 #### In order to complete this challenge you will need to: 
 - The code base needs to run on PHP 7 or higher. 
-- All API routes should return JSON and valid HTTP Status Codes. 
-- Create a public repository on github to host your codebase (Commit at each milestone) 
+- All API routes should return JSON and valid HTTP Status Codes and follow REST standards. 
+- Try to showcase your your object orientation knowledge, framework knowledge and coding standards.
+- Create a public repository on github to host your codebase (Commit regularly at each milestone) 
 - Include setup instructions 
 - Include API documentation in a standalone Markdown file 
-- Create migrations and entities that will generate the following database tables 
+- Create migrations and entities that will generate the following database tables and rollback if required
 - Good to have a cloud based deployment of your code i.e heroku
 
 ```
